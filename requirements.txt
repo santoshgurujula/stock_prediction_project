@@ -1,14 +1,126 @@
-# local package
--e .
-
-# external requirements
-click
-Sphinx
-coverage
-awscli
-flake8
-python-dotenv>=0.5.1
-
-
-# backwards compatibility
-pathlib2
+absl-py==0.9.0
+argon2-cffi @ file:///C:/ci/argon2-cffi_1596826740294/work
+arrow==0.16.0
+astor==0.8.1
+attrs @ file:///tmp/build/80754af9/attrs_1598374659300/work
+backcall==0.2.0
+binaryornot==0.4.4
+bleach==3.1.5
+blinker==1.4
+boto3 @ file:///tmp/build/80754af9/boto3_1598400436843/work
+botocore @ file:///tmp/build/80754af9/botocore_1598390664682/work
+brotlipy==0.7.0
+cachetools @ file:///tmp/build/80754af9/cachetools_1596822027882/work
+certifi==2020.6.20
+cffi @ file:///C:/ci/cffi_1598370861361/work
+chardet==3.0.4
+click==7.1.2
+colorama==0.4.3
+cookiecutter==1.7.2
+cryptography @ file:///C:/ci/cryptography_1598371491688/work
+cycler==0.10.0
+decorator==4.4.2
+defusedxml==0.6.0
+docutils==0.15.2
+entrypoints==0.3
+Flask==1.1.2
+gast==0.2.2
+google-auth @ file:///tmp/build/80754af9/google-auth_1596863485713/work
+google-auth-oauthlib==0.4.1
+google-pasta==0.2.0
+grep==0.3.2
+grpcio @ file:///C:/ci/grpcio_1597406495377/work
+h5py==2.7.1
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+importlib-metadata @ file:///C:/ci/importlib-metadata_1593431910144/work
+ipykernel @ file:///C:/ci/ipykernel_1596206775157/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1593446240034/work
+ipython-genutils==0.2.0
+ipywidgets==7.5.1
+itsdangerous==1.1.0
+jedi @ file:///C:/ci/jedi_1596472773465/work
+Jinja2==2.11.2
+jinja2-time==0.2.0
+jmespath @ file:///tmp/build/80754af9/jmespath_1594304593830/work
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+jsonschema==3.2.0
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
+jupyter-console==6.1.0
+jupyter-core==4.6.3
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing==1.1.0
+kiwisolver==1.2.0
+lxml @ file:///C:/ci/lxml_1594821524941/work
+Markdown @ file:///C:/ci/markdown_1597433297037/work
+MarkupSafe==1.1.1
+matplotlib @ file:///C:/ci/matplotlib-base_1597858295275/work
+mistune==0.8.4
+mkl-fft==1.1.0
+mkl-random==1.1.0
+mkl-service==2.3.0
+nbconvert==5.6.1
+nbformat==5.0.7
+notebook @ file:///C:/ci/notebook_1596840158498/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1596233948451/work
+oauthlib==3.1.0
+olefile==0.46
+opt-einsum==3.1.0
+packaging==20.4
+pandas @ file:///C:/ci/pandas_1598353517372/work
+pandas-datareader @ file:///tmp/build/80754af9/pandas-datareader_1595379313840/work
+pandocfilters==1.4.2
+parso==0.7.0
+pickleshare==0.7.5
+Pillow @ file:///C:/ci/pillow_1594299032796/work
+poyo==0.5.0
+prometheus-client==0.8.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1598623940270/work
+protobuf==3.13.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.7
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments==2.6.1
+PyJWT==1.7.1
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+pyparsing==2.4.7
+pyrsistent==0.16.0
+PySocks==1.7.1
+python-dateutil==2.8.1
+python-slugify==4.0.1
+pytz==2020.1
+pywin32==227
+pywinpty==0.5.7
+PyYAML==5.3.1
+pyzmq==19.0.1
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1598374667791/work
+QtPy==1.9.0
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+requests-oauthlib==1.3.0
+rsa @ file:///tmp/build/80754af9/rsa_1596998415516/work
+s3transfer==0.3.3
+scikit-learn @ file:///C:/ci/scikit-learn_1598358870446/work
+scipy @ file:///C:/ci/scipy_1597675683670/work
+Send2Trash==1.5.0
+six==1.15.0
+tensorboard==2.2.1
+tensorboard-plugin-wit==1.6.0
+tensorflow==2.1.0
+tensorflow-estimator==2.1.0
+termcolor==1.1.0
+terminado==0.8.3
+testpath==0.4.4
+text-unidecode==1.3
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+tornado==6.0.4
+tqdm @ file:///tmp/build/80754af9/tqdm_1596810128862/work
+traitlets==4.3.3
+urllib3 @ file:///tmp/build/80754af9/urllib3_1597086586889/work
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+Werkzeug==0.16.1
+widgetsnbextension==3.5.1
+win-inet-pton==1.1.0
+wincertstore==0.2
+wrapt==1.12.1
+zipp==3.1.0
